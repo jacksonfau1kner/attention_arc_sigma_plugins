@@ -2,8 +2,9 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "dma_id": 662,
+            "dma_name": "ABILENE-SWEETWATER",
             "type": "Feature",
-            "id": 662,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.404348,
@@ -100,8 +101,9 @@
             }
         },
         {
+            "dma_id": 525,
+            "dma_name": "ALBANY, GA",
             "type": "Feature",
-            "id": 525,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.5279975,
@@ -226,8 +228,9 @@
             }
         },
         {
+            "dma_id": 532,
+            "dma_name": "ALBANY-SCHENECTADY-TROY",
             "type": "Feature",
-            "id": 532,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.049266,
@@ -392,8 +395,9 @@
             }
         },
         {
+            "dma_id": 790,
+            "dma_name": "ALBUQUERQUE-SANTA FE",
             "type": "Feature",
-            "id": 790,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.4952755,
@@ -638,8 +642,9 @@
             }
         },
         {
+            "dma_id": 644,
+            "dma_name": "ALEXANDRIA, LA",
             "type": "Feature",
-            "id": 644,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.322628,
@@ -748,8 +753,9 @@
             }
         },
         {
+            "dma_id": 583,
+            "dma_name": "ALPENA",
             "type": "Feature",
-            "id": 583,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.856283,
@@ -806,8 +812,9 @@
             }
         },
         {
+            "dma_id": 634,
+            "dma_name": "AMARILLO",
             "type": "Feature",
-            "id": 634,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.4797235,
@@ -952,8 +959,9 @@
             }
         },
         {
+            "dma_id": 524,
+            "dma_name": "ATLANTA",
             "type": "Feature",
-            "id": 524,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.9253975,
@@ -1134,8 +1142,9 @@
             }
         },
         {
+            "dma_id": 520,
+            "dma_name": "AUGUSTA-AIKEN",
             "type": "Feature",
-            "id": 520,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.2388275,
@@ -1304,8 +1313,9 @@
             }
         },
         {
+            "dma_id": 635,
+            "dma_name": "AUSTIN",
             "type": "Feature",
-            "id": 635,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.331427,
@@ -1426,8 +1436,9 @@
             }
         },
         {
+            "dma_id": 800,
+            "dma_name": "BAKERSFIELD",
             "type": "Feature",
-            "id": 800,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.291006,
@@ -1538,8 +1549,9 @@
             }
         },
         {
+            "dma_id": 512,
+            "dma_name": "BALTIMORE",
             "type": "Feature",
-            "id": 512,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.972515,
@@ -2334,8 +2346,9 @@
             }
         },
         {
+            "dma_id": 537,
+            "dma_name": "BANGOR",
             "type": "Feature",
-            "id": 537,
             "properties": {
                 "name": "dma:",
                 "latitude": 45.3356845,
@@ -3142,8 +3155,9 @@
             }
         },
         {
+            "dma_id": 716,
+            "dma_name": "BATON ROUGE",
             "type": "Feature",
-            "id": 716,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.4278165,
@@ -3312,8 +3326,9 @@
             }
         },
         {
+            "dma_id": 692,
+            "dma_name": "BEAUMONT-PORT ARTHUR",
             "type": "Feature",
-            "id": 692,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.3724315,
@@ -3390,8 +3405,9 @@
             }
         },
         {
+            "dma_id": 821,
+            "dma_name": "BEND, OR",
             "type": "Feature",
-            "id": 821,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.001647,
@@ -3484,8 +3500,9 @@
             }
         },
         {
+            "dma_id": 756,
+            "dma_name": "BILLINGS",
             "type": "Feature",
-            "id": 756,
             "properties": {
                 "name": "dma:",
                 "latitude": 45.8919365,
@@ -3854,8 +3871,9 @@
             }
         },
         {
+            "dma_id": 746,
+            "dma_name": "BILOXI-GULFPORT",
             "type": "Feature",
-            "id": 746,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.651123,
@@ -3916,8 +3934,9 @@
             }
         },
         {
+            "dma_id": 502,
+            "dma_name": "BINGHAMTON",
             "type": "Feature",
-            "id": 502,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.2963485,
@@ -3998,8 +4017,9 @@
             }
         },
         {
+            "dma_id": 630,
+            "dma_name": "BIRMINGHAM (ANN AND TUSC)",
             "type": "Feature",
-            "id": 630,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.5031,
@@ -4148,8 +4168,9 @@
             }
         },
         {
+            "dma_id": 559,
+            "dma_name": "BLUEFIELD-BECKLEY-OAK HILL",
             "type": "Feature",
-            "id": 559,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.6001745,
@@ -4294,8 +4315,9 @@
             }
         },
         {
+            "dma_id": 757,
+            "dma_name": "BOISE",
             "type": "Feature",
-            "id": 757,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.632029,
@@ -4512,8 +4534,9 @@
             }
         },
         {
+            "dma_id": 506,
+            "dma_name": "BOSTON (MANCHESTER)",
             "type": "Feature",
-            "id": 506,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.501023,
@@ -5472,8 +5495,9 @@
             }
         },
         {
+            "dma_id": 736,
+            "dma_name": "BOWLING GREEN",
             "type": "Feature",
-            "id": 736,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.0341725,
@@ -5606,8 +5630,9 @@
             }
         },
         {
+            "dma_id": 514,
+            "dma_name": "BUFFALO",
             "type": "Feature",
-            "id": 514,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.42369,
@@ -5878,8 +5903,9 @@
             }
         },
         {
+            "dma_id": 523,
+            "dma_name": "BURLINGTON-PLATTSBURGH",
             "type": "Feature",
-            "id": 523,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.071301,
@@ -6052,8 +6078,9 @@
             }
         },
         {
+            "dma_id": 754,
+            "dma_name": "BUTTE-BOZEMAN",
             "type": "Feature",
-            "id": 754,
             "properties": {
                 "name": "dma:",
                 "latitude": 45.979098,
@@ -6294,8 +6321,9 @@
             }
         },
         {
+            "dma_id": 767,
+            "dma_name": "CASPER-RIVERTON",
             "type": "Feature",
-            "id": 767,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.412869,
@@ -6456,8 +6484,9 @@
             }
         },
         {
+            "dma_id": 637,
+            "dma_name": "CEDAR RAPIDS-WTRLO-IWC&DUB",
             "type": "Feature",
-            "id": 637,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.331217,
@@ -6590,8 +6619,9 @@
             }
         },
         {
+            "dma_id": 648,
+            "dma_name": "CHAMPAIGN&SPRNGFLD-DECATUR",
             "type": "Feature",
-            "id": 648,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.9606635,
@@ -6708,8 +6738,9 @@
             }
         },
         {
+            "dma_id": 519,
+            "dma_name": "CHARLESTON, SC",
             "type": "Feature",
-            "id": 519,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.181204,
@@ -6984,8 +7015,9 @@
             }
         },
         {
+            "dma_id": 564,
+            "dma_name": "CHARLESTON-HUNTINGTON",
             "type": "Feature",
-            "id": 564,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.376208,
@@ -7210,8 +7242,9 @@
             }
         },
         {
+            "dma_id": 517,
+            "dma_name": "CHARLOTTE",
             "type": "Feature",
-            "id": 517,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.477172,
@@ -7396,8 +7429,9 @@
             }
         },
         {
+            "dma_id": 584,
+            "dma_name": "CHARLOTTESVILLE",
             "type": "Feature",
-            "id": 584,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.1802125,
@@ -7450,8 +7484,9 @@
             }
         },
         {
+            "dma_id": 575,
+            "dma_name": "CHATTANOOGA",
             "type": "Feature",
-            "id": 575,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.204094,
@@ -7564,8 +7599,9 @@
             }
         },
         {
+            "dma_id": 759,
+            "dma_name": "CHEYENNE-SCOTTSBLUF",
             "type": "Feature",
-            "id": 759,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.8048825,
@@ -7626,8 +7662,9 @@
             }
         },
         {
+            "dma_id": 602,
+            "dma_name": "CHICAGO",
             "type": "Feature",
-            "id": 602,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.615065,
@@ -7760,8 +7797,9 @@
             }
         },
         {
+            "dma_id": 868,
+            "dma_name": "CHICO-REDDING",
             "type": "Feature",
-            "id": 868,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.3359675,
@@ -7906,8 +7944,9 @@
             }
         },
         {
+            "dma_id": 515,
+            "dma_name": "CINCINNATI",
             "type": "Feature",
-            "id": 515,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.0338655,
@@ -8036,8 +8075,9 @@
             }
         },
         {
+            "dma_id": 598,
+            "dma_name": "CLARKSBURG-WESTON",
             "type": "Feature",
-            "id": 598,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.93329,
@@ -8170,8 +8210,9 @@
             }
         },
         {
+            "dma_id": 510,
+            "dma_name": "CLEVELAND-AKRON (CANTON)",
             "type": "Feature",
-            "id": 510,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.0958885,
@@ -8366,8 +8407,9 @@
             }
         },
         {
+            "dma_id": 752,
+            "dma_name": "COLORADO SPRINGS-PUEBLO",
             "type": "Feature",
-            "id": 752,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.061384,
@@ -8496,8 +8538,9 @@
             }
         },
         {
+            "dma_id": 546,
+            "dma_name": "COLUMBIA, SC",
             "type": "Feature",
-            "id": 546,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.896366,
@@ -8646,8 +8689,9 @@
             }
         },
         {
+            "dma_id": 604,
+            "dma_name": "COLUMBIA-JEFFERSON CITY",
             "type": "Feature",
-            "id": 604,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.8629485,
@@ -8748,8 +8792,9 @@
             }
         },
         {
+            "dma_id": 522,
+            "dma_name": "COLUMBUS, GA (OPELIKA, AL)",
             "type": "Feature",
-            "id": 522,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.2969995,
@@ -8920,8 +8965,9 @@
             }
         },
         {
+            "dma_id": 535,
+            "dma_name": "COLUMBUS, OH",
             "type": "Feature",
-            "id": 535,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.9719715,
@@ -9122,8 +9168,9 @@
             }
         },
         {
+            "dma_id": 673,
+            "dma_name": "COLUMBUS-TUPELO-W PNT-HSTN",
             "type": "Feature",
-            "id": 673,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.9623585,
@@ -9240,8 +9287,9 @@
             }
         },
         {
+            "dma_id": 600,
+            "dma_name": "CORPUS CHRISTI",
             "type": "Feature",
-            "id": 600,
             "properties": {
                 "name": "dma:",
                 "latitude": 27.6933695,
@@ -9786,8 +9834,9 @@
             }
         },
         {
+            "dma_id": 623,
+            "dma_name": "DALLAS-FT. WORTH",
             "type": "Feature",
-            "id": 623,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.702473,
@@ -10012,8 +10061,9 @@
             }
         },
         {
+            "dma_id": 682,
+            "dma_name": "DAVENPORT-R.ISLAND-MOLINE",
             "type": "Feature",
-            "id": 682,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.5680725,
@@ -10158,8 +10208,9 @@
             }
         },
         {
+            "dma_id": 542,
+            "dma_name": "DAYTON",
             "type": "Feature",
-            "id": 542,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.1392235,
@@ -10232,8 +10283,9 @@
             }
         },
         {
+            "dma_id": 751,
+            "dma_name": "DENVER",
             "type": "Feature",
-            "id": 751,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.9981425,
@@ -10660,8 +10712,9 @@
             }
         },
         {
+            "dma_id": 679,
+            "dma_name": "DES MOINES-AMES",
             "type": "Feature",
-            "id": 679,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.8822865,
@@ -10806,8 +10859,9 @@
             }
         },
         {
+            "dma_id": 505,
+            "dma_name": "DETROIT",
             "type": "Feature",
-            "id": 505,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.7069935,
@@ -11174,8 +11228,9 @@
             }
         },
         {
+            "dma_id": 606,
+            "dma_name": "DOTHAN",
             "type": "Feature",
-            "id": 606,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.2429535,
@@ -11264,8 +11319,9 @@
             }
         },
         {
+            "dma_id": 676,
+            "dma_name": "DULUTH-SUPERIOR",
             "type": "Feature",
-            "id": 676,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.169647,
@@ -11666,8 +11722,9 @@
             }
         },
         {
+            "dma_id": 765,
+            "dma_name": "EL PASO (LAS CRUCES)",
             "type": "Feature",
-            "id": 765,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.840946,
@@ -11740,8 +11797,9 @@
             }
         },
         {
+            "dma_id": 565,
+            "dma_name": "ELMIRA (CORNING)",
             "type": "Feature",
-            "id": 565,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.0595215,
@@ -11826,8 +11884,9 @@
             }
         },
         {
+            "dma_id": 516,
+            "dma_name": "ERIE",
             "type": "Feature",
-            "id": 516,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.8794375,
@@ -11884,8 +11943,9 @@
             }
         },
         {
+            "dma_id": 801,
+            "dma_name": "EUGENE",
             "type": "Feature",
-            "id": 801,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.6937855,
@@ -12094,8 +12154,9 @@
             }
         },
         {
+            "dma_id": 802,
+            "dma_name": "EUREKA",
             "type": "Feature",
-            "id": 802,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.001389,
@@ -12278,8 +12339,9 @@
             }
         },
         {
+            "dma_id": 649,
+            "dma_name": "EVANSVILLE",
             "type": "Feature",
-            "id": 649,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.8233245,
@@ -12428,8 +12490,9 @@
             }
         },
         {
+            "dma_id": 724,
+            "dma_name": "FARGO-VALLEY CITY",
             "type": "Feature",
-            "id": 724,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.659799,
@@ -12566,8 +12629,9 @@
             }
         },
         {
+            "dma_id": 513,
+            "dma_name": "FLINT-SAGINAW-BAY CITY",
             "type": "Feature",
-            "id": 513,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.643882,
@@ -12728,8 +12792,9 @@
             }
         },
         {
+            "dma_id": 866,
+            "dma_name": "FRESNO-VISALIA",
             "type": "Feature",
-            "id": 866,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.846642,
@@ -12850,8 +12915,9 @@
             }
         },
         {
+            "dma_id": 571,
+            "dma_name": "FT. MYERS-NAPLES",
             "type": "Feature",
-            "id": 571,
             "properties": {
                 "name": "dma:",
                 "latitude": 26.5720265,
@@ -13512,8 +13578,9 @@
             }
         },
         {
+            "dma_id": 670,
+            "dma_name": "FT. SMITH-FAY-SPRNGDL-RGRS",
             "type": "Feature",
-            "id": 670,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.5031505,
@@ -13650,8 +13717,9 @@
             }
         },
         {
+            "dma_id": 509,
+            "dma_name": "FT. WAYNE",
             "type": "Feature",
-            "id": 509,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.0334615,
@@ -13748,8 +13816,9 @@
             }
         },
         {
+            "dma_id": 592,
+            "dma_name": "GAINESVILLE",
             "type": "Feature",
-            "id": 592,
             "properties": {
                 "name": "dma:",
                 "latitude": 29.4735495,
@@ -14044,8 +14113,9 @@
             }
         },
         {
+            "dma_id": 798,
+            "dma_name": "GLENDIVE",
             "type": "Feature",
-            "id": 798,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.836368,
@@ -14230,8 +14300,9 @@
             }
         },
         {
+            "dma_id": 773,
+            "dma_name": "GRAND JUNCTION-MONTROSE",
             "type": "Feature",
-            "id": 773,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.425681,
@@ -14354,8 +14425,9 @@
             }
         },
         {
+            "dma_id": 563,
+            "dma_name": "GRAND RAPIDS-KALMZOO-B.CRK",
             "type": "Feature",
-            "id": 563,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.7892405,
@@ -14460,8 +14532,9 @@
             }
         },
         {
+            "dma_id": 755,
+            "dma_name": "GREAT FALLS",
             "type": "Feature",
-            "id": 755,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.838823,
@@ -14690,8 +14763,9 @@
             }
         },
         {
+            "dma_id": 658,
+            "dma_name": "GREEN BAY-APPLETON",
             "type": "Feature",
-            "id": 658,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.7644785,
@@ -15030,8 +15104,9 @@
             }
         },
         {
+            "dma_id": 518,
+            "dma_name": "GREENSBORO-H.POINT-W.SALEM",
             "type": "Feature",
-            "id": 518,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.994693,
@@ -15168,8 +15243,9 @@
             }
         },
         {
+            "dma_id": 545,
+            "dma_name": "GREENVILLE-N.BERN-WASHNGTN",
             "type": "Feature",
-            "id": 545,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.342169,
@@ -16234,8 +16310,9 @@
             }
         },
         {
+            "dma_id": 567,
+            "dma_name": "GREENVLL-SPART-ASHEVLL-AND",
             "type": "Feature",
-            "id": 567,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.0526635,
@@ -16448,8 +16525,9 @@
             }
         },
         {
+            "dma_id": 647,
+            "dma_name": "GREENWOOD-GREENVILLE",
             "type": "Feature",
-            "id": 647,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.585109,
@@ -16618,8 +16696,9 @@
             }
         },
         {
+            "dma_id": 636,
+            "dma_name": "HARLINGEN-WSLCO-BRNSVL-MCA",
             "type": "Feature",
-            "id": 636,
             "properties": {
                 "name": "dma:",
                 "latitude": 26.311933,
@@ -16850,8 +16929,9 @@
             }
         },
         {
+            "dma_id": 566,
+            "dma_name": "HARRISBURG-LNCSTR-LEB-YORK",
             "type": "Feature",
-            "id": 566,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.2836345,
@@ -16940,8 +17020,9 @@
             }
         },
         {
+            "dma_id": 569,
+            "dma_name": "HARRISONBURG",
             "type": "Feature",
-            "id": 569,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.4231645,
@@ -17026,8 +17107,9 @@
             }
         },
         {
+            "dma_id": 533,
+            "dma_name": "HARTFORD & NEW HAVEN",
             "type": "Feature",
-            "id": 533,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.612664,
@@ -17140,8 +17222,9 @@
             }
         },
         {
+            "dma_id": 710,
+            "dma_name": "HATTIESBURG-LAUREL",
             "type": "Feature",
-            "id": 710,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.5670435,
@@ -17234,8 +17317,9 @@
             }
         },
         {
+            "dma_id": 766,
+            "dma_name": "HELENA",
             "type": "Feature",
-            "id": 766,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.1878,
@@ -17364,8 +17448,9 @@
             }
         },
         {
+            "dma_id": 618,
+            "dma_name": "HOUSTON",
             "type": "Feature",
-            "id": 618,
             "properties": {
                 "name": "dma:",
                 "latitude": 29.606092,
@@ -17996,8 +18081,9 @@
             }
         },
         {
+            "dma_id": 691,
+            "dma_name": "HUNTSVILLE-DECATUR (FLOR)",
             "type": "Feature",
-            "id": 691,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.7953925,
@@ -18098,8 +18184,9 @@
             }
         },
         {
+            "dma_id": 758,
+            "dma_name": "IDAHO FALS-POCATLLO(JCKSN)",
             "type": "Feature",
-            "id": 758,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.641669,
@@ -18480,8 +18567,9 @@
             }
         },
         {
+            "dma_id": 527,
+            "dma_name": "INDIANAPOLIS",
             "type": "Feature",
-            "id": 527,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.84288,
@@ -18686,8 +18774,9 @@
             }
         },
         {
+            "dma_id": 718,
+            "dma_name": "JACKSON, MS",
             "type": "Feature",
-            "id": 718,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.1874215,
@@ -18980,8 +19069,9 @@
             }
         },
         {
+            "dma_id": 639,
+            "dma_name": "JACKSON, TN",
             "type": "Feature",
-            "id": 639,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.5707925,
@@ -19070,8 +19160,9 @@
             }
         },
         {
+            "dma_id": 561,
+            "dma_name": "JACKSONVILLE",
             "type": "Feature",
-            "id": 561,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.427575,
@@ -19654,8 +19745,9 @@
             }
         },
         {
+            "dma_id": 574,
+            "dma_name": "JOHNSTOWN-ALTOONA-ST COLGE",
             "type": "Feature",
-            "id": 574,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.673069,
@@ -19776,8 +19868,9 @@
             }
         },
         {
+            "dma_id": 734,
+            "dma_name": "JONESBORO",
             "type": "Feature",
-            "id": 734,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.0989355,
@@ -19874,8 +19967,9 @@
             }
         },
         {
+            "dma_id": 603,
+            "dma_name": "JOPLIN-PITTSBURG",
             "type": "Feature",
-            "id": 603,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.2695535,
@@ -19936,8 +20030,9 @@
             }
         },
         {
+            "dma_id": 616,
+            "dma_name": "KANSAS CITY",
             "type": "Feature",
-            "id": 616,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.3042305,
@@ -20086,8 +20181,9 @@
             }
         },
         {
+            "dma_id": 557,
+            "dma_name": "KNOXVILLE",
             "type": "Feature",
-            "id": 557,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.112655,
@@ -20292,8 +20388,9 @@
             }
         },
         {
+            "dma_id": 702,
+            "dma_name": "LA CROSSE-EAU CLAIRE",
             "type": "Feature",
-            "id": 702,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.313217,
@@ -20418,8 +20515,9 @@
             }
         },
         {
+            "dma_id": 582,
+            "dma_name": "LAFAYETTE, IN",
             "type": "Feature",
-            "id": 582,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.3451955,
@@ -20480,8 +20578,9 @@
             }
         },
         {
+            "dma_id": 642,
+            "dma_name": "LAFAYETTE, LA",
             "type": "Feature",
-            "id": 642,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.2379905,
@@ -20692,8 +20791,9 @@
             }
         },
         {
+            "dma_id": 643,
+            "dma_name": "LAKE CHARLES",
             "type": "Feature",
-            "id": 643,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.2390885,
@@ -20778,8 +20878,9 @@
             }
         },
         {
+            "dma_id": 551,
+            "dma_name": "LANSING",
             "type": "Feature",
-            "id": 551,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.4074535,
@@ -20856,8 +20957,9 @@
             }
         },
         {
+            "dma_id": 749,
+            "dma_name": "LAREDO",
             "type": "Feature",
-            "id": 749,
             "properties": {
                 "name": "dma:",
                 "latitude": 27.388155,
@@ -20938,8 +21040,9 @@
             }
         },
         {
+            "dma_id": 839,
+            "dma_name": "LAS VEGAS",
             "type": "Feature",
-            "id": 839,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.082759,
@@ -21036,8 +21139,9 @@
             }
         },
         {
+            "dma_id": 541,
+            "dma_name": "LEXINGTON",
             "type": "Feature",
-            "id": 541,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.584915,
@@ -21266,8 +21370,9 @@
             }
         },
         {
+            "dma_id": 558,
+            "dma_name": "LIMA",
             "type": "Feature",
-            "id": 558,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.782607,
@@ -21304,8 +21409,9 @@
             }
         },
         {
+            "dma_id": 722,
+            "dma_name": "LINCOLN & HASTINGS-KRNY",
             "type": "Feature",
-            "id": 722,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.282784,
@@ -21450,8 +21556,9 @@
             }
         },
         {
+            "dma_id": 693,
+            "dma_name": "LITTLE ROCK-PINE BLUFF",
             "type": "Feature",
-            "id": 693,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.647081,
@@ -21724,8 +21831,9 @@
             }
         },
         {
+            "dma_id": 803,
+            "dma_name": "LOS ANGELES",
             "type": "Feature",
-            "id": 803,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.132844,
@@ -22076,8 +22184,9 @@
             }
         },
         {
+            "dma_id": 529,
+            "dma_name": "LOUISVILLE",
             "type": "Feature",
-            "id": 529,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.1524665,
@@ -22230,8 +22339,9 @@
             }
         },
         {
+            "dma_id": 651,
+            "dma_name": "LUBBOCK",
             "type": "Feature",
-            "id": 651,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.4181475,
@@ -22280,8 +22390,9 @@
             }
         },
         {
+            "dma_id": 503,
+            "dma_name": "MACON",
             "type": "Feature",
-            "id": 503,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.6218675,
@@ -22452,8 +22563,9 @@
             }
         },
         {
+            "dma_id": 669,
+            "dma_name": "MADISON",
             "type": "Feature",
-            "id": 669,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.370746,
@@ -22566,8 +22678,9 @@
             }
         },
         {
+            "dma_id": 737,
+            "dma_name": "MANKATO",
             "type": "Feature",
-            "id": 737,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.876563,
@@ -22648,8 +22761,9 @@
             }
         },
         {
+            "dma_id": 553,
+            "dma_name": "MARQUETTE",
             "type": "Feature",
-            "id": 553,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.8707415,
@@ -22936,8 +23050,9 @@
             }
         },
         {
+            "dma_id": 813,
+            "dma_name": "MEDFORD-KLAMATH FALLS",
             "type": "Feature",
-            "id": 813,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.3097025,
@@ -23118,8 +23233,9 @@
             }
         },
         {
+            "dma_id": 640,
+            "dma_name": "MEMPHIS",
             "type": "Feature",
-            "id": 640,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.1946395,
@@ -23304,8 +23420,9 @@
             }
         },
         {
+            "dma_id": 711,
+            "dma_name": "MERIDIAN",
             "type": "Feature",
-            "id": 711,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.3468715,
@@ -23454,8 +23571,9 @@
             }
         },
         {
+            "dma_id": 528,
+            "dma_name": "MIAMI-FT. LAUDERDALE",
             "type": "Feature",
-            "id": 528,
             "properties": {
                 "name": "dma:",
                 "latitude": 25.439022,
@@ -25376,8 +25494,9 @@
             }
         },
         {
+            "dma_id": 617,
+            "dma_name": "MILWAUKEE",
             "type": "Feature",
-            "id": 617,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.1921015,
@@ -25454,8 +25573,9 @@
             }
         },
         {
+            "dma_id": 613,
+            "dma_name": "MINNEAPOLIS-ST. PAUL",
             "type": "Feature",
-            "id": 613,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.0197555,
@@ -25724,8 +25844,9 @@
             }
         },
         {
+            "dma_id": 687,
+            "dma_name": "MINOT-BSMRCK-DCKNSN(WLSTN)",
             "type": "Feature",
-            "id": 687,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.8731805,
@@ -26014,8 +26135,9 @@
             }
         },
         {
+            "dma_id": 762,
+            "dma_name": "MISSOULA",
             "type": "Feature",
-            "id": 762,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.229117,
@@ -26312,8 +26434,9 @@
             }
         },
         {
+            "dma_id": 686,
+            "dma_name": "MOBILE-PENSACOLA (FT WALT)",
             "type": "Feature",
-            "id": 686,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.1061175,
@@ -26720,8 +26843,9 @@
             }
         },
         {
+            "dma_id": 628,
+            "dma_name": "MONROE-EL DORADO",
             "type": "Feature",
-            "id": 628,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.1842885,
@@ -27022,8 +27146,9 @@
             }
         },
         {
+            "dma_id": 828,
+            "dma_name": "MONTEREY-SALINAS",
             "type": "Feature",
-            "id": 828,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.537526,
@@ -27126,8 +27251,9 @@
             }
         },
         {
+            "dma_id": 698,
+            "dma_name": "MONTGOMERY-SELMA",
             "type": "Feature",
-            "id": 698,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.0506805,
@@ -27268,8 +27394,9 @@
             }
         },
         {
+            "dma_id": 570,
+            "dma_name": "MYRTLE BEACH-FLORENCE",
             "type": "Feature",
-            "id": 570,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.2987775,
@@ -27392,8 +27519,9 @@
             }
         },
         {
+            "dma_id": 659,
+            "dma_name": "NASHVILLE",
             "type": "Feature",
-            "id": 659,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.07259,
@@ -27602,8 +27730,9 @@
             }
         },
         {
+            "dma_id": 622,
+            "dma_name": "NEW ORLEANS",
             "type": "Feature",
-            "id": 622,
             "properties": {
                 "name": "dma:",
                 "latitude": 29.9723295,
@@ -30724,8 +30853,9 @@
             }
         },
         {
+            "dma_id": 501,
+            "dma_name": "NEW YORK",
             "type": "Feature",
-            "id": 501,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.839717,
@@ -31966,8 +32096,9 @@
             }
         },
         {
+            "dma_id": 544,
+            "dma_name": "NORFOLK-PORTSMTH-NEWPT NWS",
             "type": "Feature",
-            "id": 544,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.608336,
@@ -32898,8 +33029,9 @@
             }
         },
         {
+            "dma_id": 740,
+            "dma_name": "NORTH PLATTE",
             "type": "Feature",
-            "id": 740,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.394995,
@@ -32964,8 +33096,9 @@
             }
         },
         {
+            "dma_id": 633,
+            "dma_name": "ODESSA-MIDLAND",
             "type": "Feature",
-            "id": 633,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.781491,
@@ -33138,8 +33271,9 @@
             }
         },
         {
+            "dma_id": 650,
+            "dma_name": "OKLAHOMA CITY",
             "type": "Feature",
-            "id": 650,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.667342,
@@ -33340,8 +33474,9 @@
             }
         },
         {
+            "dma_id": 652,
+            "dma_name": "OMAHA",
             "type": "Feature",
-            "id": 652,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.1056295,
@@ -33502,8 +33637,9 @@
             }
         },
         {
+            "dma_id": 534,
+            "dma_name": "ORLANDO-DAYTONA BCH-MELBRN",
             "type": "Feature",
-            "id": 534,
             "properties": {
                 "name": "dma:",
                 "latitude": 28.6562235,
@@ -33966,8 +34102,9 @@
             }
         },
         {
+            "dma_id": 631,
+            "dma_name": "OTTUMWA-KIRKSVILLE",
             "type": "Feature",
-            "id": 631,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.384083,
@@ -34040,8 +34177,9 @@
             }
         },
         {
+            "dma_id": 632,
+            "dma_name": "PADUCAH-CAPE GIRARD-HARSBG",
             "type": "Feature",
-            "id": 632,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.2352865,
@@ -34274,8 +34412,9 @@
             }
         },
         {
+            "dma_id": 804,
+            "dma_name": "PALM SPRINGS",
             "type": "Feature",
-            "id": 804,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.72988,
@@ -34340,8 +34479,9 @@
             }
         },
         {
+            "dma_id": 656,
+            "dma_name": "PANAMA CITY",
             "type": "Feature",
-            "id": 656,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.293713,
@@ -34616,8 +34756,9 @@
             }
         },
         {
+            "dma_id": 597,
+            "dma_name": "PARKERSBURG",
             "type": "Feature",
-            "id": 597,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.336078,
@@ -34698,8 +34839,9 @@
             }
         },
         {
+            "dma_id": 675,
+            "dma_name": "PEORIA-BLOOMINGTON",
             "type": "Feature",
-            "id": 675,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.6826125,
@@ -34824,8 +34966,9 @@
             }
         },
         {
+            "dma_id": 504,
+            "dma_name": "PHILADELPHIA",
             "type": "Feature",
-            "id": 504,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.8995855,
@@ -35530,8 +35673,9 @@
             }
         },
         {
+            "dma_id": 753,
+            "dma_name": "PHOENIX (PRESCOTT)",
             "type": "Feature",
-            "id": 753,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.7133875,
@@ -35696,8 +35840,9 @@
             }
         },
         {
+            "dma_id": 508,
+            "dma_name": "PITTSBURGH",
             "type": "Feature",
-            "id": 508,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.409733,
@@ -35818,8 +35963,9 @@
             }
         },
         {
+            "dma_id": 820,
+            "dma_name": "PORTLAND, OR",
             "type": "Feature",
-            "id": 820,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.191309,
@@ -36300,8 +36446,9 @@
             }
         },
         {
+            "dma_id": 500,
+            "dma_name": "PORTLAND-AUBURN",
             "type": "Feature",
-            "id": 500,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.366668,
@@ -37408,8 +37555,9 @@
             }
         },
         {
+            "dma_id": 552,
+            "dma_name": "PRESQUE ISLE",
             "type": "Feature",
-            "id": 552,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.519615,
@@ -37482,8 +37630,9 @@
             }
         },
         {
+            "dma_id": 521,
+            "dma_name": "PROVIDENCE-NEW BEDFORD",
             "type": "Feature",
-            "id": 521,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.620932,
@@ -37898,8 +38047,9 @@
             }
         },
         {
+            "dma_id": 717,
+            "dma_name": "QUINCY-HANNIBAL-KEOKUK",
             "type": "Feature",
-            "id": 717,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.066065,
@@ -38016,8 +38166,9 @@
             }
         },
         {
+            "dma_id": 560,
+            "dma_name": "RALEIGH-DURHAM (FAYETVLLE)",
             "type": "Feature",
-            "id": 560,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.72255,
@@ -38176,8 +38327,9 @@
             }
         },
         {
+            "dma_id": 764,
+            "dma_name": "RAPID CITY",
             "type": "Feature",
-            "id": 764,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.7649485,
@@ -38408,8 +38560,9 @@
             }
         },
         {
+            "dma_id": 811,
+            "dma_name": "RENO",
             "type": "Feature",
-            "id": 811,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.4852355,
@@ -38574,8 +38727,9 @@
             }
         },
         {
+            "dma_id": 556,
+            "dma_name": "RICHMOND-PETERSBURG",
             "type": "Feature",
-            "id": 556,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.4686305,
@@ -38864,8 +39018,9 @@
             }
         },
         {
+            "dma_id": 573,
+            "dma_name": "ROANOKE-LYNCHBURG",
             "type": "Feature",
-            "id": 573,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.6408795,
@@ -39090,8 +39245,9 @@
             }
         },
         {
+            "dma_id": 538,
+            "dma_name": "ROCHESTER, NY",
             "type": "Feature",
-            "id": 538,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.9137715,
@@ -39262,8 +39418,9 @@
             }
         },
         {
+            "dma_id": 611,
+            "dma_name": "ROCHESTR-MASON CITY-AUSTIN",
             "type": "Feature",
-            "id": 611,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.552183,
@@ -39356,8 +39513,9 @@
             }
         },
         {
+            "dma_id": 610,
+            "dma_name": "ROCKFORD",
             "type": "Feature",
-            "id": 610,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.0453555,
@@ -39414,8 +39572,9 @@
             }
         },
         {
+            "dma_id": 862,
+            "dma_name": "SACRAMNTO-STKTON-MODESTO",
             "type": "Feature",
-            "id": 862,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.7885185,
@@ -39786,8 +39945,9 @@
             }
         },
         {
+            "dma_id": 576,
+            "dma_name": "SALISBURY",
             "type": "Feature",
-            "id": 576,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.4437985,
@@ -40142,8 +40302,9 @@
             }
         },
         {
+            "dma_id": 770,
+            "dma_name": "SALT LAKE CITY",
             "type": "Feature",
-            "id": 770,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.23193,
@@ -40372,8 +40533,9 @@
             }
         },
         {
+            "dma_id": 661,
+            "dma_name": "SAN ANGELO",
             "type": "Feature",
-            "id": 661,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.186904,
@@ -40470,8 +40632,9 @@
             }
         },
         {
+            "dma_id": 641,
+            "dma_name": "SAN ANTONIO",
             "type": "Feature",
-            "id": 641,
             "properties": {
                 "name": "dma:",
                 "latitude": 29.2651455,
@@ -40638,8 +40801,9 @@
             }
         },
         {
+            "dma_id": 825,
+            "dma_name": "SAN DIEGO",
             "type": "Feature",
-            "id": 825,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.0195915,
@@ -40768,8 +40932,9 @@
             }
         },
         {
+            "dma_id": 807,
+            "dma_name": "SAN FRANCISCO-OAK-SAN JOSE",
             "type": "Feature",
-            "id": 807,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.4477155,
@@ -41194,8 +41359,9 @@
             }
         },
         {
+            "dma_id": 855,
+            "dma_name": "SANTABARBRA-SANMAR-SANLUOB",
             "type": "Feature",
-            "id": 855,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.844663,
@@ -41406,8 +41572,9 @@
             }
         },
         {
+            "dma_id": 507,
+            "dma_name": "SAVANNAH",
             "type": "Feature",
-            "id": 507,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.168191,
@@ -42046,8 +42213,9 @@
             }
         },
         {
+            "dma_id": 819,
+            "dma_name": "SEATTLE-TACOMA",
             "type": "Feature",
-            "id": 819,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.621239,
@@ -43806,8 +43974,9 @@
             }
         },
         {
+            "dma_id": 657,
+            "dma_name": "SHERMAN-ADA",
             "type": "Feature",
-            "id": 657,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.181478,
@@ -44004,8 +44173,9 @@
             }
         },
         {
+            "dma_id": 612,
+            "dma_name": "SHREVEPORT",
             "type": "Feature",
-            "id": 612,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.820852,
@@ -44218,8 +44388,9 @@
             }
         },
         {
+            "dma_id": 624,
+            "dma_name": "SIOUX CITY",
             "type": "Feature",
-            "id": 624,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.621459,
@@ -44356,8 +44527,9 @@
             }
         },
         {
+            "dma_id": 725,
+            "dma_name": "SIOUX FALLS(MITCHELL)",
             "type": "Feature",
-            "id": 725,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.0133785,
@@ -44558,8 +44730,9 @@
             }
         },
         {
+            "dma_id": 588,
+            "dma_name": "SOUTH BEND-ELKHART",
             "type": "Feature",
-            "id": 588,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.576527,
@@ -44656,8 +44829,9 @@
             }
         },
         {
+            "dma_id": 881,
+            "dma_name": "SPOKANE",
             "type": "Feature",
-            "id": 881,
             "properties": {
                 "name": "dma:",
                 "latitude": 47.0398515,
@@ -45018,8 +45192,9 @@
             }
         },
         {
+            "dma_id": 619,
+            "dma_name": "SPRINGFIELD, MO",
             "type": "Feature",
-            "id": 619,
             "properties": {
                 "name": "dma:",
                 "latitude": 37.1293385,
@@ -45224,8 +45399,9 @@
             }
         },
         {
+            "dma_id": 543,
+            "dma_name": "SPRINGFIELD-HOLYOKE",
             "type": "Feature",
-            "id": 543,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.3856895,
@@ -45298,8 +45474,9 @@
             }
         },
         {
+            "dma_id": 638,
+            "dma_name": "ST. JOSEPH",
             "type": "Feature",
-            "id": 638,
             "properties": {
                 "name": "dma:",
                 "latitude": 40.055305,
@@ -45388,8 +45565,9 @@
             }
         },
         {
+            "dma_id": 609,
+            "dma_name": "ST. LOUIS",
             "type": "Feature",
-            "id": 609,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.434253,
@@ -45562,8 +45740,9 @@
             }
         },
         {
+            "dma_id": 555,
+            "dma_name": "SYRACUSE",
             "type": "Feature",
-            "id": 555,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.9849975,
@@ -45700,8 +45879,9 @@
             }
         },
         {
+            "dma_id": 530,
+            "dma_name": "TALLAHASSEE-THOMASVILLE",
             "type": "Feature",
-            "id": 530,
             "properties": {
                 "name": "dma:",
                 "latitude": 30.462299,
@@ -45846,8 +46026,9 @@
             }
         },
         {
+            "dma_id": 539,
+            "dma_name": "TAMPA-ST. PETE (SARASOTA)",
             "type": "Feature",
-            "id": 539,
             "properties": {
                 "name": "dma:",
                 "latitude": 27.9989465,
@@ -47246,8 +47427,9 @@
             }
         },
         {
+            "dma_id": 581,
+            "dma_name": "TERRE HAUTE",
             "type": "Feature",
-            "id": 581,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.2814045,
@@ -47360,8 +47542,9 @@
             }
         },
         {
+            "dma_id": 547,
+            "dma_name": "TOLEDO",
             "type": "Feature",
-            "id": 547,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.384993,
@@ -47596,8 +47779,9 @@
             }
         },
         {
+            "dma_id": 605,
+            "dma_name": "TOPEKA",
             "type": "Feature",
-            "id": 605,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.0201515,
@@ -47702,8 +47886,9 @@
             }
         },
         {
+            "dma_id": 540,
+            "dma_name": "TRAVERSE CITY-CADILLAC",
             "type": "Feature",
-            "id": 540,
             "properties": {
                 "name": "dma:",
                 "latitude": 45.119199,
@@ -48270,8 +48455,9 @@
             }
         },
         {
+            "dma_id": 531,
+            "dma_name": "TRI-CITIES, TN-VA",
             "type": "Feature",
-            "id": 531,
             "properties": {
                 "name": "dma:",
                 "latitude": 36.732483,
@@ -48478,8 +48664,9 @@
             }
         },
         {
+            "dma_id": 789,
+            "dma_name": "TUCSON (SIERRA VISTA)",
             "type": "Feature",
-            "id": 789,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.923023,
@@ -48528,8 +48715,9 @@
             }
         },
         {
+            "dma_id": 671,
+            "dma_name": "TULSA",
             "type": "Feature",
-            "id": 671,
             "properties": {
                 "name": "dma:",
                 "latitude": 35.9900205,
@@ -48710,8 +48898,9 @@
             }
         },
         {
+            "dma_id": 760,
+            "dma_name": "TWIN FALLS",
             "type": "Feature",
-            "id": 760,
             "properties": {
                 "name": "dma:",
                 "latitude": 42.994495,
@@ -48860,8 +49049,9 @@
             }
         },
         {
+            "dma_id": 709,
+            "dma_name": "TYLER-LONGVIEW(LFKN&NCGD)",
             "type": "Feature",
-            "id": 709,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.1070105,
@@ -49010,8 +49200,9 @@
             }
         },
         {
+            "dma_id": 526,
+            "dma_name": "UTICA",
             "type": "Feature",
-            "id": 526,
             "properties": {
                 "name": "dma:",
                 "latitude": 43.205527,
@@ -49104,8 +49295,9 @@
             }
         },
         {
+            "dma_id": 626,
+            "dma_name": "VICTORIA",
             "type": "Feature",
-            "id": 626,
             "properties": {
                 "name": "dma:",
                 "latitude": 28.805652,
@@ -49162,8 +49354,9 @@
             }
         },
         {
+            "dma_id": 625,
+            "dma_name": "WACO-TEMPLE-BRYAN",
             "type": "Feature",
-            "id": 625,
             "properties": {
                 "name": "dma:",
                 "latitude": 31.0795205,
@@ -49316,8 +49509,9 @@
             }
         },
         {
+            "dma_id": 511,
+            "dma_name": "WASHINGTON, DC (HAGRSTWN)",
             "type": "Feature",
-            "id": 511,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.127683,
@@ -49712,8 +49906,9 @@
             }
         },
         {
+            "dma_id": 549,
+            "dma_name": "WATERTOWN",
             "type": "Feature",
-            "id": 549,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.217164,
@@ -50080,8 +50275,9 @@
             }
         },
         {
+            "dma_id": 705,
+            "dma_name": "WAUSAU-RHINELANDER",
             "type": "Feature",
-            "id": 705,
             "properties": {
                 "name": "dma:",
                 "latitude": 44.9711405,
@@ -50198,8 +50394,9 @@
             }
         },
         {
+            "dma_id": 548,
+            "dma_name": "WEST PALM BEACH-FT. PIERCE",
             "type": "Feature",
-            "id": 548,
             "properties": {
                 "name": "dma:",
                 "latitude": 27.096694,
@@ -50478,8 +50675,9 @@
             }
         },
         {
+            "dma_id": 554,
+            "dma_name": "WHEELING-STEUBENVILLE",
             "type": "Feature",
-            "id": 554,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.96655,
@@ -50592,8 +50790,9 @@
             }
         },
         {
+            "dma_id": 627,
+            "dma_name": "WICHITA FALLS & LAWTON",
             "type": "Feature",
-            "id": 627,
             "properties": {
                 "name": "dma:",
                 "latitude": 33.9059285,
@@ -50718,8 +50917,9 @@
             }
         },
         {
+            "dma_id": 678,
+            "dma_name": "WICHITA-HUTCHINSON PLUS",
             "type": "Feature",
-            "id": 678,
             "properties": {
                 "name": "dma:",
                 "latitude": 38.672948,
@@ -50828,8 +51028,9 @@
             }
         },
         {
+            "dma_id": 577,
+            "dma_name": "WILKES BARRE-SCRANTON-HZTN",
             "type": "Feature",
-            "id": 577,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.2488125,
@@ -50970,8 +51171,9 @@
             }
         },
         {
+            "dma_id": 550,
+            "dma_name": "WILMINGTON",
             "type": "Feature",
-            "id": 550,
             "properties": {
                 "name": "dma:",
                 "latitude": 34.3480385,
@@ -51546,8 +51748,9 @@
             }
         },
         {
+            "dma_id": 810,
+            "dma_name": "YAKIMA-PASCO-RCHLND-KNNWCK",
             "type": "Feature",
-            "id": 810,
             "properties": {
                 "name": "dma:",
                 "latitude": 46.29578,
@@ -51744,8 +51947,9 @@
             }
         },
         {
+            "dma_id": 536,
+            "dma_name": "YOUNGSTOWN",
             "type": "Feature",
-            "id": 536,
             "properties": {
                 "name": "dma:",
                 "latitude": 41.0505515,
@@ -51814,8 +52018,9 @@
             }
         },
         {
+            "dma_id": 771,
+            "dma_name": "YUMA-EL CENTRO",
             "type": "Feature",
-            "id": 771,
             "properties": {
                 "name": "dma:",
                 "latitude": 32.751631,
@@ -51904,8 +52109,9 @@
             }
         },
         {
+            "dma_id": 596,
+            "dma_name": "ZANESVILLE",
             "type": "Feature",
-            "id": 596,
             "properties": {
                 "name": "dma:",
                 "latitude": 39.961236,

@@ -45,7 +45,7 @@ function getColorBins(bins = 50, startColor = '#ffffff', endColor = '#d4f9d0') {
 }
 
 function Map(props) {
-  const { sigmaData, config, selectedKpi, colorRange, kpiLabel } = props;
+  const { sigmaData, config, selectedKpi, colorRange, kpiLabel, uidType } = props;
   const [viewState, setViewState] = React.useState({ ...INITIAL_VIEW_STATE });
   const [hoverInfo, setHoverInfo] = React.useState(null);
   const [contextMenuInfo, setContextMenuInfo] = React.useState(null);
@@ -60,18 +60,18 @@ function Map(props) {
   // Debug: Log key props and computed values
   console.log('Map debug:', { sigmaData, selectedKpi });
 
-  // Build DMA value map from Sigma data, using selectedKpi
+  // Build DMA value map from Sigma data, using row.numeric_value
   const dmaValueMap = React.useMemo(() => {
     const map = {};
-    if (Array.isArray(sigmaData) && selectedKpi) {
+    if (Array.isArray(sigmaData)) {
       sigmaData.forEach(row => {
-        if (row.dma != null && row[selectedKpi] != null) {
-          map[row.dma] = row[selectedKpi];
+        if (row.uid != null && row.numeric_value != null) {
+          map[row.uid] = row.numeric_value;
         }
       });
     }
     return map;
-  }, [sigmaData, selectedKpi]);
+  }, [sigmaData]);
 
   console.log('dmaValueMap:', dmaValueMap);
 
@@ -95,12 +95,12 @@ function Map(props) {
       filled: true,
       lineWidthMinPixels: 1,
       getFillColor: f => {
-        const dmaId = f.id != null ? f.id : f.properties.dma;
-        const value = dmaValueMap[dmaId];
+        const dmaUid = f.properties && f.properties[uidType] != null ? f.properties[uidType] : f[uidType];
+        const value = dmaValueMap[dmaUid];
         if (value == null) return [200, 200, 200, 40];
         // Highlight fill color on hover (slightly brighter)
         const color = getColorForValue(value, minVal, maxVal);
-        if (dmaId === hoveredDmaId) {
+        if (dmaUid === hoveredDmaId) {
           return [
             Math.min(color[0] + 40, 255),
             Math.min(color[1] + 40, 255),
@@ -111,15 +111,15 @@ function Map(props) {
         return [...color, 120]; // higher alpha for all
       },
       getLineColor: f => {
-        const dmaId = f.id != null ? f.id : f.properties.dma;
+        const dmaUid = f.properties && f.properties[uidType] != null ? f.properties[uidType] : f[uidType];
         // Make hovered border black but more transparent
-        if (dmaId === hoveredDmaId) {
+        if (dmaUid === hoveredDmaId) {
           return [200, 200, 200, 50]; // white, more transparent
         }
         return [210, 210, 210, 120]; // white, fully opaque
       },
     });
-  }, [dmaGeoJson, dmaValueMap, colorRange, selectedKpi, hoveredDmaId]);
+  }, [dmaGeoJson, dmaValueMap, colorRange, selectedKpi, hoveredDmaId, uidType]);
 
   const hideTooltip = () => {
     setHoverInfo(null);
@@ -130,13 +130,13 @@ function Map(props) {
   const handleClick = (info, event) => {
     // Only handle clicks on DMA polygons
     if (info && info.object && info.object.type === 'Feature' && info.layer && info.layer.id.startsWith('dma-polygons')) {
-      // Get DMA id
-      const dmaId = info.object.id != null ? info.object.id : info.object.properties.dma;
-      const value = dmaValueMap[dmaId];
+      // Get DMA uid
+      const dmaUid = info.object.properties && info.object.properties[uidType] != null ? info.object.properties[uidType] : info.object[uidType];
+      const value = dmaValueMap[dmaUid];
       setHoverInfo({
         x: info.x,
         y: info.y,
-        dmaId,
+        dmaUid,
         value
       });
       setContextMenuInfo(null);
@@ -149,8 +149,8 @@ function Map(props) {
   // Add onHover handler for DeckGL
   const handleHover = info => {
     if (info && info.object && info.object.type === 'Feature' && info.layer && info.layer.id.startsWith('dma-polygons')) {
-      const dmaId = info.object.id != null ? info.object.id : info.object.properties.dma;
-      setHoveredDmaId(dmaId);
+      const dmaUid = info.object.properties && info.object.properties[uidType] != null ? info.object.properties[uidType] : info.object[uidType];
+      setHoveredDmaId(dmaUid);
       // Optionally, update tooltip position live here if you want
     } else {
       setHoveredDmaId(null);
@@ -195,8 +195,8 @@ function Map(props) {
         {/* Only show tooltip for DMA polygons */}
         {hoverInfo && (
           <div className="tooltip" style={{ position: 'fixed', left: hoverInfo.x, top: hoverInfo.y }}>
-            <div>DMA ID: {hoverInfo.dmaId}</div>
-            <div>{kpiLabel || 'Value'}: {hoverInfo.value}</div>
+            <div>{uidType === 'dma_id' ? 'DMA ID' : 'DMA Name'}: {hoverInfo.dmaUid}</div>
+            <div>{kpiLabel || 'KPI'}: {hoverInfo.value}</div>
           </div>
         )}
       </DeckGL>
