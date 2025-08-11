@@ -1,3 +1,11 @@
+/* Fill entire embed/viewport */
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Global Color Palette
  */
@@ -76,7 +84,7 @@
 .iconsSection {
   position: absolute;
   right: 16px;
-  bottom: 36px;
+  top: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -136,27 +144,70 @@
 
 .map-container {
   width: 100%;
-  height: 500px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-  background: #fff;
-  padding: 8px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.map-container-label {
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 8px;
-}
+.map-container-label { display: none; }
 
 .map-container-map {
   flex: 1;
-  min-height: 300px;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.legend-panel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.legend-vertical {
+  top: 16px;
+  right: 64px; /* offset to the left of the icons block */
+  bottom: auto;
+}
+
+.legend-title { display: none; }
+
+.legend-gradient { display: none; }
+
+.legend-gradient-vertical {
+  width: 14px;
+  height: 140px;
+  border: 1px solid #eee;
+}
+
+.legend-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #555;
+}
+
+.legend-min, .legend-max {
+  min-width: 28px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
 }
 
 /* Header Styles */

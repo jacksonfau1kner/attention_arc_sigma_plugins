@@ -11,9 +11,9 @@ import dmaGeoJson from './dmamap/nielsengeo.json';
 
 const MAP_VIEW = new MapView({ repeat: true });
 const INITIAL_VIEW_STATE = {
-  latitude: 40.2,
+  latitude: 39.0,
   longitude: -95.8,
-  zoom: 3.40,
+  zoom: 3.90,
   minZoom: 0,
   maxZoom: 20,
   pitch: 0,
