@@ -21,7 +21,7 @@ const INITIAL_VIEW_STATE = {
 };
 const ZOOM_STEP = 0.5;
 
-const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || '';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiamZyYW50eSIsImEiOiJjam91bzF2YWUxZTFzM3FydnBncWs3dnoyIn0.cXRBg3Vcetu9d-gjstnGig';
 
 // Utility to interpolate between two hex colors
 function interpolateColor(hex1, hex2, t) {
