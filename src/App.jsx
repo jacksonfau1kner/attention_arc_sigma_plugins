@@ -16,7 +16,7 @@ import Header from './components/Header';
 client.config.configureEditorPanel([
   { name: "source", type: "element" },
   { name: "dma_id", type: "column", source: "source", allowMultiple: false, allowedTypes: ['number', 'integer', 'string']},
-  { name: "dma_name", type: "column", source: "source", allowMultiple: false, allowedTypes: ['number', 'integer', 'text'] },
+  { name: "dma_name", type: "column", source: "source", allowMultiple: false, allowedTypes: ['text'] },
   { name: "kpi", type: "column", source: "source", allowMultiple: false, allowedTypes: ['number', 'integer'] },
 ]);
 
@@ -139,7 +139,13 @@ function App() {
           </div>
         </div>
       )}
-      <Header index={0} setIndex={() => {}} count={1} kpiLabels={kpiLabels} startColor={headerStartColor} endColor={headerEndColor} minValue={minValue} maxValue={maxValue} />
+      <Header 
+        kpiLabel={kpiLabelFromUrl || 'KPI'}
+        startColor={headerStartColor}
+        endColor={headerEndColor}
+        minValue={minValue}
+        maxValue={maxValue}
+      />
       <div style={{ flex: 1, minHeight: 0, padding: 0, overflow: 'auto', width: '100%' }}>
         {!numericKpiKey && (
           <div style={{ color: '#888', textAlign: 'center', marginTop: 40 }}>[No Numeric KPI Available]</div>

@@ -21,8 +21,7 @@ const INITIAL_VIEW_STATE = {
 };
 const ZOOM_STEP = 0.5;
 
-const MAPBOX_TOKEN =
-  'pk.eyJ1IjoiamZyYW50eSIsImEiOiJjam91bzF2YWUxZTFzM3FydnBncWs3dnoyIn0.cXRBg3Vcetu9d-gjstnGig';
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || '';
 
 // Utility to interpolate between two hex colors
 function interpolateColor(hex1, hex2, t) {
@@ -53,7 +52,9 @@ function Map(props) {
 
   React.useEffect(() => {
     if (sigmaData && Array.isArray(sigmaData) && sigmaData.length > 0) {
-      console.log('MAPBOX_TOKEN:', MAPBOX_TOKEN);
+      if (!MAPBOX_TOKEN) {
+        console.warn('Missing VITE_MAPBOX_TOKEN; Map may not render correctly.');
+      }
     }
   }, [sigmaData]);
 

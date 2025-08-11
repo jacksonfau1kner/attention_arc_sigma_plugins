@@ -18,6 +18,7 @@ Desktop.ini
 # Env
 .env
 .env.*
+!.env.example
 
 # Build/Cache
 *.tsbuildinfo
