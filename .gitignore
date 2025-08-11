@@ -1,0 +1,42 @@
+# Dependencies
+/node_modules
+
+# Build
+/dist
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Build/Cache
+*.tsbuildinfo
+.cache/
+.next/
+.parcel-cache/
+*.log
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+*.pid
+*.seed
+*.pid.lock
+
+# Lint/Format
+.eslintcache

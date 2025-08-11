@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remove restrictive CSP -->
+    <title>DMA Map Plugin</title>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+    <script type="module" crossorigin src="/attention_arc_sigma_plugins/assets/index.DylxUaCy.js"></script>
+    <link rel="modulepreload" crossorigin href="/attention_arc_sigma_plugins/assets/vendor.B2DQrew9.js">
+    <link rel="modulepreload" crossorigin href="/attention_arc_sigma_plugins/assets/mapbox.BIdzbSav.js">
+    <link rel="modulepreload" crossorigin href="/attention_arc_sigma_plugins/assets/deck.BTAt5WSK.js">
+    <link rel="stylesheet" crossorigin href="/attention_arc_sigma_plugins/assets/index.OApikKDy.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Allow cross-origin communication
+      if (window.parent !== window) {
+        console.log('Running in iframe, setting up messaging...');
+        window.addEventListener('message', function(event) {
+          // Log all messages for debugging
+          console.log('Received message:', event.origin, event.data);
+          
+          // Allow Sigma messages
+          if (event.origin.includes('sigmacomputing.com')) {
+            console.log('Received Sigma message:', event.data);
+            // Respond to keep connection alive
+            event.source.postMessage({ type: 'plugin-ready' }, event.origin);
+          }
+        }, false);
+      }
+    </script>
+  </body>
+</html>
