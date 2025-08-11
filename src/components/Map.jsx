@@ -11,9 +11,9 @@ import dmaGeoJson from './dmamap/nielsengeo.json';
 
 const MAP_VIEW = new MapView({ repeat: true });
 const INITIAL_VIEW_STATE = {
-  latitude: 40.2,
+  latitude: 39.0,
   longitude: -95.8,
-  zoom: 3.40,
+  zoom: 3.90,
   minZoom: 0,
   maxZoom: 20,
   pitch: 0,
@@ -21,7 +21,7 @@ const INITIAL_VIEW_STATE = {
 };
 const ZOOM_STEP = 0.5;
 
-const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || '';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiamZyYW50eSIsImEiOiJjam91bzF2YWUxZTFzM3FydnBncWs3dnoyIn0.cXRBg3Vcetu9d-gjstnGig';
 
 // Utility to interpolate between two hex colors
 function interpolateColor(hex1, hex2, t) {

@@ -8,7 +8,7 @@ export default defineConfig({
     include: ["@sigmacomputing/plugin"],
   },
   plugins: [react(), svgr()],
-  base: 'https://jacksonfau1kner.github.io/dma_map_box_backup/',
+  base: '/attention_arc_sigma_plugins/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

@@ -7,8 +7,6 @@ import {
 
 import './App.css';
 import Map from './components/Map';
-import Header from './components/Header';
-// import AttentionArcLogo from './assets/ATTENTION_ARC_LOGO.svg';
 
 // Initialize the editor panel inside of the sigma editor
 // This allows the user to select columns via native sigma tools to populate graph. 
@@ -34,7 +32,7 @@ function App() {
       }
     }
     try {
-      return JSON.parse('"' + value.replace(/"/g, '\"') + '"');
+      return JSON.parse('"' + value.replace(/"/g, '\\"') + '"');
     } catch {
       return value;
     }
@@ -43,15 +41,6 @@ function App() {
 
   const config = useConfig();
   const sigmaData = useElementData(config.source);
-
-  // Debug: Show user's public IP
-  const [userIp, setUserIp] = React.useState(null);
-  React.useEffect(() => {
-    fetch('https://api64.ipify.org?format=json')
-      .then(res => res.json())
-      .then(data => setUserIp(data.ip))
-      .catch(() => setUserIp('Error fetching IP'));
-  }, []);
 
   // Always use the last column in sigmaData as the numeric KPI column
   const sigmaKeys = Object.keys(sigmaData || {});
@@ -67,10 +56,7 @@ function App() {
   const uidType = hasDmaId ? 'dma_id' : hasDmaName ? 'dma_name' : null;
   const uidCol = config[uidType];
 
-  // Build array of KPI display names for the carousel
-  const kpiLabels = [kpiLabelFromUrl || 'KPI'];
-
-  // Compute current KPI color range for the header
+  // Compute current KPI color range for the legend
   let headerStartColor = '#d4f9d0';
   let headerEndColor = '#27e7b8';
   let minValue = undefined;
@@ -119,40 +105,14 @@ function App() {
     return 'Calculated Field';
   };
 
-  const [showSigmaData, setShowSigmaData] = React.useState(false);
-
-  React.useEffect(() => {
-    if (sigmaData) setShowSigmaData(true);
-  }, [sigmaData]);
-
   return (
     <div className="App" style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      {showSigmaData && sigmaData && (
-        <div style={{
-          position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
-          background: 'rgba(0,0,0,0.7)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center'
-        }}>
-          <div style={{ background: '#fff', padding: 24, borderRadius: 8, maxWidth: '80vw', maxHeight: '80vh', overflow: 'auto' }}>
-            <button style={{ float: 'right', fontSize: 18 }} onClick={() => setShowSigmaData(false)}>Close</button>
-            <h3>Raw Sigma Data</h3>
-            <pre style={{ fontSize: 12, maxHeight: '70vh', overflow: 'auto' }}>{JSON.stringify(sigmaData, null, 2)}</pre>
-          </div>
-        </div>
-      )}
-      <Header 
-        kpiLabel={kpiLabelFromUrl || 'KPI'}
-        startColor={headerStartColor}
-        endColor={headerEndColor}
-        minValue={minValue}
-        maxValue={maxValue}
-      />
       <div style={{ flex: 1, minHeight: 0, padding: 0, overflow: 'auto', width: '100%' }}>
         {!numericKpiKey && (
           <div style={{ color: '#888', textAlign: 'center', marginTop: 40 }}>[No Numeric KPI Available]</div>
         )}
         {numericKpiKey && (
           <div className="map-container">
-            <div className="map-container-label">{kpiLabelFromUrl || 'KPI'}</div>
             <div className="map-container-map">
               <Map
                 sigmaData={mapSigmaData}
@@ -162,13 +122,14 @@ function App() {
                 kpiLabel={kpiLabelFromUrl || 'KPI'}
                 uidType={uidType}
               />
-            </div>
-            {/* Color gradient key */}
-            <div style={{ margin: '16px 0 0 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ width: 240, height: 18, background: `linear-gradient(90deg, ${headerStartColor} 0%, ${headerEndColor} 100%)`, borderRadius: 6, border: '1px solid #eee' }} />
-              <div style={{ width: 240, display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#888', marginTop: 2 }}>
-                <span>Min</span>
-                <span>Max</span>
+              {/* Right-side vertical legend overlay */}
+              <div className="legend-panel legend-vertical">
+                <span className="legend-max">{maxValue !== undefined ? maxValue : ''}</span>
+                <div
+                  className="legend-gradient-vertical"
+                  style={{ background: `linear-gradient(180deg, ${headerEndColor} 0%, ${headerStartColor} 100%)` }}
+                />
+                <span className="legend-min">{minValue !== undefined ? minValue : ''}</span>
               </div>
             </div>
           </div>
